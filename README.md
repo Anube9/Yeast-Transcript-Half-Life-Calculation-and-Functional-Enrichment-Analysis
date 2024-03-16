@@ -8,9 +8,8 @@ To normalize the data and account for exponential decay, a log transformation is
 
 # 2. Half-Life Calculation and Replicate Averaging:
 
-THe code performs a linear regression analysis for each transcript on the log-transformed data.
+The code performs a linear regression analysis for each transcript on the log-transformed data.
 The slope of the regression line represents the transcript's decay rate.
-Error Handling: The script incorporates functions like is.na() (from the base R package) or tools from the tidyr library to identify and handle missing values (NA) appropriately before the regression analysis.
 The half-life for each transcript is calculated in each dataframe using the formula: half-life = ln(2) / (absolute value of slope).
 Finally,average half-life for each transcript across the three dataframes (tc1, tc2, tc3) is calculated to provide a more robust estimate.
 
