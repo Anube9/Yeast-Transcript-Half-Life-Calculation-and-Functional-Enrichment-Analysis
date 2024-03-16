@@ -1,11 +1,12 @@
 # Yeast-Transcript-Half-Life-Calculation-and-Functional-Enrichment-Analysis
 This project aims to analyze the yeast transcript half-lives using time series data and identifies genes with significantly high or low half-lives.<br>
-Then the list of output genes are used to perform a basic functional enrichment analysis to explore potential biological implications.
+Then the list of output genes are used to perform a basic functional enrichment analysis to explore potential biological implications.<br>
 
 # 1. Data Loading and Preprocessing: 
-After you load the time series data from DecayTimecourse.txt containing multiple columns representing time points and corresponding transcript abundance values.<br>
+<p align="left">
+After you load the time series data from DecayTimecourse.txt containing multiple columns representing time points and corresponding transcript abundance values.   <br>
 Three dataframes (tc1, tc2, tc3) are created to represent the three sets of time course data.<br>
-To normalize the data and account for exponential decay, a log transformation is applied to each transcript's time series data within each dataframe.<br>
+To normalize the data and account for exponential decay, a log transformation is applied to each transcript's time series data within each dataframe.</p><br>
 
 # 2. Half-Life Calculation and Replicate Averaging:
 
