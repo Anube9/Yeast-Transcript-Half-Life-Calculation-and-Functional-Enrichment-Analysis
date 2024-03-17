@@ -9,13 +9,11 @@ Three dataframes (tc1, tc2, tc3) are created to represent the three sets of time
 To normalize the data and account for exponential decay, a log transformation is applied to each transcript's time series data within each dataframe.</p><br>
 
 # 2. Half-Life Calculation and Replicate Averaging:
-
 The code performs a linear regression analysis for each transcript on the log-transformed data.<br>
 The slope of the regression line represents the transcript's decay rate.<br>
 The half-life for each transcript is calculated in each dataframe using the formula: half-life = ln(2) / (absolute value of slope).<br>
 Finally,average half-life for each transcript across the three dataframes (tc1, tc2, tc3) is calculated to provide a more robust estimate.<br>
 
 # 3. Identification of High/Low Half-Life Transcripts:
-
 The average half-life for all transcripts is calculated.<br>
 Finally we aim to identify the transcripts with the top 10% highest and bottom 10% lowest average half-lives, potentially representing long-lived and short-lived transcripts, respectively.<br>
