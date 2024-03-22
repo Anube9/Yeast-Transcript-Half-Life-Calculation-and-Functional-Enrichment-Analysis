@@ -15,4 +15,4 @@ Finally,average half-life for each transcript across the three dataframes (tc1, 
 
 # 3. Identification of High/Low Half-Life Transcripts:
 The average half-life for all transcripts is calculated.<br>
-Finally we aim to identify the transcripts with the top 10% highest and bottom 10% lowest average half-lives, potentially representing long-lived and short-lived transcripts, respectively.<br>
+Finally aims to identify the transcripts with the top 10% highest and bottom 10% lowest average half-lives, potentially representing long-lived and short-lived transcripts, respectively.<br>
